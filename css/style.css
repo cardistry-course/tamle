@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Coda Caption', sans-serif;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+h2,h3{
+    font-family: 'Anton', sans-serif;
+}
+
+header{
+    font-family: 'Squada One', cursive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo{
+
+    max-width: 80px;
+}
+
+.menu{
+    
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textBox{
+    max-width: 600px;
+}
+
+.textBox h2{
+    color: #333;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+
+.textBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+
+.textBox p{
+    color: #333;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+.imgBox{
+    width: 600;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+
+.imgBox img{
+    max-width: 400px;
+}
+
+
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: -25%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+
+.thumb img{
+    max-width: 60px;
+}
+
+.sci{
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(900px at right 1100px);
+}
